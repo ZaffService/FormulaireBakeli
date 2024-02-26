@@ -1,0 +1,43 @@
+body{
+  background-color: #f6f6f9;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+/* Ajoutez du style CSS ici si nécessaire */
+.btn {
+  background-color:#f6f6f9;
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+  
+  .btn img {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+
+  input{
+    background-color: #f6f6f9;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 3px solid black;
+  }
